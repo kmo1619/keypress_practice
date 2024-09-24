@@ -2,7 +2,11 @@
 #include <conio.h> //키와 관련된 인클루드
 
 void main() {
+	char c;
 
+	c = _getch();
+
+	printf("키 : %d", c);
 
 
 }
